@@ -1,0 +1,45 @@
+body {
+  background: #FEFDF1;
+  margin-left: 250px;
+  margin-right: 250px;
+  min-width: 1100px;
+}
+body h1{
+  display: inline;
+  float:left;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.ex_small_img{
+  width:200px;
+  height:250px;
+  margin-right: 50px;
+}
+
+.ex_big_img{
+  width:1000px;
+  height:1200px;
+}
+
+.bar{
+  height: 60px;
+  padding-left: 30px;
+}
+
+.bar ul{
+  float: right;
+}
+
+.bar li{
+  list-style-type: none; /*리스트 옆 문자 없애기*/
+  float: left;
+  margin-right: 30px;
+}
+
+.bar a{
+  text-decoration: none; /*링크에서 밑줄 없애기*/
+  color: black;
+  font-style: bold;
+  font-size: 12px;
+}

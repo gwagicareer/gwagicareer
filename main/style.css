@@ -1,0 +1,49 @@
+/* position, box, detail */
+/*header*/
+.main { text-align:center;}
+.main a {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 링크의 색상 제거 */
+  
+}
+
+
+#main-header { 
+	position : relative;
+	margin: 100px 0px 0px 100px;
+	vertical-align : middle;
+}
+.title {
+	display : inline;
+	position: relative;
+	}
+.search {
+	position: relative;
+	left: 50px;
+	width:500px;height: 50px;
+	padding: 15px;
+}
+.sns {
+	display : inline;
+	position: relative;
+	left:100px;
+}
+#seoultechimg {
+	width:70px; height:60px;
+}
+#linkareerimg {
+	width:160px; height:40px;
+}
+
+/*section*/
+section {
+	position: relative;
+
+}
+.slidebox{
+	position: relative;
+}
+.calendar{
+	position: relative;
+	left:10%;
+}
