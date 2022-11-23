@@ -1,0 +1,117 @@
+/* position, box, detail */
+/*header*/
+body { text-align:center;}
+header { 
+	position : relative;
+	margin: 100px 0px 0px 100px;
+}
+.title {
+	display : inline;
+	position: relative;
+	}
+.search {
+	position: relative;
+	left: 50px;
+	width:500px;height: 50px;
+	padding: 15px;
+}
+.sns {
+	display : inline;
+	position: relative;
+	left:200px;
+}
+.snsimg {
+	width:160px; height:40px;
+}
+
+/*nav, aside*/
+.nav {
+	position: relative;
+	margin: 100px 0px 0px 100px;
+	background-color: #003E75;
+	width:80%;height: 100px;
+}
+.navli{
+	display : inline;
+	position: relative;
+	color: white;
+	margin: 0px 100px 0px 100px;
+	vertical-align: middle;
+}
+.movingnav{
+	position: fixed;
+	right: 100px;
+	top:200px;
+	color: white;
+	font: 16px NSB;
+}
+.odd {background-color: #E8C8CA;}
+.even{background-color: #ABBED2;}
+	
+.movingli{
+	position: relative;
+	padding: 30px;
+}
+/*section*/
+section {
+	position: relative;
+
+}
+.slidebox{
+	position: relative;
+}
+.calendar{
+	position: relative;
+	left:10%;
+}
+/*footer*/
+footer {
+	/*position: relative;*/
+
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: gray;
+	padding:50px 0px 150px 0px;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+	background-color: #666666;
+	color: #ffffff;
+	text-align: left;
+}
+}
+.link-footer{	
+	position: relative;
+
+}
+.lf-ul{
+	vertical-align: top;
+	display : inline-block;
+	position: relative;
+	left: 100px;
+}
+.lf-title{
+	position: relative;
+	bottom: 10px;
+}
+.lf-li{
+	display : block;
+	width: 200px; height: 20px;
+	
+}
+
+.unlink-footer{
+	position: relative;
+	top: 30px;
+	left: 100px;
+}
+.name{
+width: 200px; height: 20px;}
+.add{
+width: 600px; height: 20px;}
+
+.copyright{
+	position: relative;
+	top: 30px;
+}
