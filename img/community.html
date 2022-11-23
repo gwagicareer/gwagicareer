@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--mainpage-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>과기커리어</title>
+	<link rel="stylesheet" href="calendarstyle.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slide.css">
+<style>
+		@import url("community.css");
+</style>
+
+</head>
+<body>
+<header>	
+<h1 class="title"><a href="main.html">과기커리어</a></h1>
+<input class="search" type="search" placeholder="검색어를 입력하세요.">
+<div class="sns">
+<a  href="https://www.seoultech.ac.kr/index.jsp" target="_blank">
+	<img class="snsimg1" src="./media/linkareer.png" alt="linkareer" ></a>
+<a  href="https://job.seoultech.ac.kr/" target="_blacnk">
+	<img class="snsimg2" src="./media/wevity.png" alt="wevity"></a></a>
+</div>
+</header>
+
+<nav>
+<ul class="nav">
+	<li class="navli"><a href="commuity.html">커뮤니티</a></li>
+	<li class="navli"><a href="#">공모전</a></li>
+	<li class="navli"><a href="#">대외활동</a></li>
+</ul>
+</nav>
+
+<section>
+<!--배너-->
+<div class="slidebox">
+	<input type="radio" name="slide" id="slide01" checked>
+	<input type="radio" name="slide" id="slide02">
+	<input type="radio" name="slide" id="slide03">
+	<input type="radio" name="slide" id="slide04">
+	<ul class="slidelist">
+		<li class="slideitem">
+			<a><img src="./media/링크1.png"></a>
+		</li>
+		<li class="slideitem">
+			<a><img src="./media/링크2.png"></a>
+		</li>
+		<li class="slideitem">
+			<a><img src="./media/링크3.png"></a>
+		</li>
+<!--		<li class="slideitem">
+			<a><img src="./media/링크1.png"></a>
+		</li>-->
+		
+	</ul>
+	<div class="slide-control">
+		<div class="control01">
+			<label for="slide04" class="prev"></label>
+			<label for="slide02" class="next"></label>
+		</div>
+		<div class="control02">
+			<label for="slide01" class="prev"></label>
+			<label for="slide03" class="next"></label>
+		</div>
+		<div class="control03">
+			<label for="slide02" class="prev"></label>
+			<label for="slide04" class="next"></label>
+		</div>
+		<div class="control04">
+			<label for="slide03" class="prev"></label>
+			<label for="slide01" class="next"></label>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="commuity_list">
+
+	
+
+
+	<table class="contenes">
+	<th>
+		<form class="list">
+  <select name="post" >
+    <option value="none">=== 전체 ===</option>
+    <option value="#">공지 게시판</option>
+    <option value="#">이벤트 게시판</option>
+    <option value="#">질문 게시판</option>
+    <option value="#">자유 게시판</option>
+  </select>
+</form>
+	</th>
+	<th>게시판 명</th>
+	<th>제목</th>
+	<th>글쓴이</th>
+	<th>등록일</th>
+
+	<tr >
+		<td></td>
+		 <td colspan="4" align = "center"><a href="community_post_view.html">게시판 명 예시 제목 예시 글쓴이 예시 등록일 예시</a></td>
+	</tr>
+</table>
+
+<hr >
+<table class="tables">
+		<tr>
+			<td><a href="#"><<첫페이지</a></td>
+			<td><a href="#">1</a></td>
+			<td><a href="#">2</a></td>
+			<td><a href="#">3</a></td>
+			<td><a href="#">4</a></td>
+			<td><a href="#">5</a></td>
+			<td><a href="#">6</a></td>
+			<td><a href="#">7</a></td>
+			<td><a href="#">8</a></td>
+			<td><a href="#">9</a></td>
+			<td><a href="#">10</a></td>
+			<td><a href="#">끝 페이지 >></a></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td colspan="12" align="right"><a href="community_post.html">글쓰기</a></td>
+		</tr>
+</table>
+</div>
+</section>
+
+
+
+<!--스크롤을 따라서 움직이는 부분-->
+<aside class="movingnav"> 
+<div class="movingli">공모전등록</div>
+<div class="movingli">이벤트등록</div>
+<div class="movingli">메일링신청</div>
+<div class="movingli">top</div>
+</aside>
+
+<footer>
+<div class="link-footer">
+<ul class="lf-ul">이름
+	<li class="lf-li">이름 소개
+	<li class="lf-li">공지사항
+</ul>
+<ul class="lf-ul">고객문의
+	<li class="lf-li">광고 및 제휴 문의
+	<li class="lf-li">고객문의
+	<li class="lf-li">FAQ
+</ul>
+<ul class="lf-ul">이용안내
+	<li class="lf-li">이용약관
+	<li class="lf-li">개인정보처리방침
+</ul>
+</div>
+<div class="unlink-footer">
+<table>
+<tr><td class="name">(조)이름 조장 : xxx</td><td class="name">(조)이름 조원 : xxx</td><td class="name">(조)이름 조원 : xxx</td>
+<td class="add">주소 : 서울특별시 노원구 공릉로 232 서울 과학기술대학교 미래관</td></tr>
+</table>
+<div class="copyright">Copyright &copy 이름. All Rights Reserved.</div>
+</footer>
+
+</body>
+</html>

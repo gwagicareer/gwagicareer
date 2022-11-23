@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--mainpage-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Gwagicareer</title>
+	<link rel="stylesheet" href="calendarstyle.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slide.css">
+</head>
+<body>
+<header>	
+<h1 class="title">Gwagicareer</h1>
+<input class="search" type="search" placeholder="검색어를 입력하세요.">
+<div class="sns">
+<a  href="https://linkareer.com/" target="_blank">
+	<img class="snsimg" src="./media/linkareer.png" alt="linkareer" ></a>
+<a  href="https://www.wevity.com/" target="_blacnk">
+	<img class="snsimg" src="./media/wevity.png" alt="wevity"></a></a>
+</div>
+</header>
+
+<nav>
+<ul class="nav">
+	<li class="navli">커뮤니티</li>
+	<li class="navli">공모전</li>
+	<li class="navli">대외활동</li>
+</ul>
+</nav>
+
+<section>
+<!--배너-->
+<div class="slidebox">
+	<input type="radio" name="slide" id="slide01" checked>
+	<input type="radio" name="slide" id="slide02">
+	<input type="radio" name="slide" id="slide03">
+	<input type="radio" name="slide" id="slide04">
+	<ul class="slidelist">
+		<li class="slideitem">
+			<a><img src="./media/링크1.png"></a>
+		</li>
+		<li class="slideitem">
+			<a><img src="./media/링크2.png"></a>
+		</li>
+		<li class="slideitem">
+			<a><img src="./media/링크3.png"></a>
+		</li>
+<!--		<li class="slideitem">
+			<a><img src="./media/링크1.png"></a>
+		</li>-->
+		
+	</ul>
+	<div class="slide-control">
+		<div class="control01">
+			<label for="slide04" class="prev"></label>
+			<label for="slide02" class="next"></label>
+		</div>
+		<div class="control02">
+			<label for="slide01" class="prev"></label>
+			<label for="slide03" class="next"></label>
+		</div>
+		<div class="control03">
+			<label for="slide02" class="prev"></label>
+			<label for="slide04" class="next"></label>
+		</div>
+		<div class="control04">
+			<label for="slide03" class="prev"></label>
+			<label for="slide01" class="next"></label>
+		</div>
+	</div>
+</div>
+
+
+<!--캘린더-->
+    <div class="calendar">
+        <div class="c-header">
+            <div class="year-month"></div>
+            <div class="c-nav">
+                <button class="nav-btn go-prev">&lt;</button>
+                <button class="nav-btn go-today">Today</button>
+                <button class="nav-btn go-next">&gt;</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="days">
+                <div class="day">일</div>
+                <div class="day">월</div>
+                <div class="day">화</div>
+                <div class="day">수</div>
+                <div class="day">목</div>
+                <div class="day">금</div>
+                <div class="day">토</div>
+            </div>
+            <div class="dates"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</section>
+
+
+
+<!--스크롤을 따라서 움직이는 부분-->
+<aside class="movingnav"> 
+<div class="movingli odd">공모전등록</div>
+<div class="movingli even">이벤트등록</div>
+<div class="movingli odd">메일링신청</div>
+<div class="movingli even">top</div>
+</aside>
+
+<footer>
+
+<div class="link-footer">
+<ul class="lf-ul">
+	<li class="lf-li lf-title">이름</li>
+	<li class="lf-li">이름 소개</li>
+	<li class="lf-li">공지사항</li>
+</ul>
+<ul class="lf-ul">
+	<li class="lf-li lf-title">고객문의</li>
+	<li class="lf-li">광고 및 제휴 문의</li>
+	<li class="lf-li">고객문의</li>
+	<li class="lf-li">FAQ</li>
+</ul>
+<ul class="lf-ul">
+	<li class="lf-li lf-title">이용안내</li>
+	<li class="lf-li">이용약관</li>
+	<li class="lf-li">개인정보처리방침</li>
+</ul>
+</div>
+<div class="unlink-footer">
+<table>
+<tr><td class="name">(조)gwagicareer 조장 : xxx</td><td class="name">(조)gwagicareer 조원 : xxx</td><td class="name">(조)gwagicareer 조원 : xxx</td>
+<td class="add">주소 : 서울특별시 노원구 공릉로 232 서울 과학기술대학교 미래관</td></tr>
+</table>
+<div class="copyright">Copyright &copy gwagicareer. All Rights Reserved.</div>
+</footer>
+
+</body>
+</html>
