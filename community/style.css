@@ -1,0 +1,206 @@
+/* position, box, detail */
+/*header*/
+.main { text-align:center; margin:0;}
+.main a {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 링크의 색상 제거 */
+}
+
+
+/*section*/
+.main-section {
+	position: relative;
+	text-align:center;
+	margin: 30px 0px 50px 100px;
+	width:1400;
+	text-align:left;
+
+}
+.slidebox{
+	position: relative;
+	margin-bottom: 100px;
+}
+.calendar{
+	position: relative;
+	display : inline-block;
+}
+.c-header{
+text-align:left;
+font-size:30px;}
+.sun{
+	color:red;
+}
+.sat{
+	color:blue;
+}
+.day11{
+width:120px; height:20px;
+text-align:right;
+opacity:0.7 ;
+background-color:#f0f0f0;
+}
+.day12{
+width:120px; height:20px;
+text-align:right;
+
+}
+.c-link{
+vertical-align:top;
+width:120px; height:150px;
+text-align:left;
+font-size:8px;
+padding-top:10px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.popular{
+	text-align:left;
+	display : inline-block;
+	vertical-align: top;
+	background-color: #ececec;
+	height:250px; width:300px;
+}
+
+
+/*header, nav, aside*/
+#main-header { 
+	position : relative;
+	margin: 40px 0px 0px 0px;
+	vertical-align : middle;
+	right:50px;
+}
+.title {
+	display : inline;
+	position: relative;
+	color: #003e7e;
+	left:30px;
+	}
+.gwagi{
+	color:#b5121b;
+}
+.search {
+	position: relative;
+	left: 50px;
+	width:600px;height: 50px;
+	padding: 15px;
+}
+.sns {
+	display : inline;
+	position: relative;
+	left:100px;
+	top:20px;
+}
+#seoultechimg {
+	width:70px; height:60px;
+}
+#linkareerimg {
+	width:160px; height:40px;
+}
+.header { text-align:center; margin:0;}
+.nav { text-align:center; margin:0;}
+.footer { text-align:center; margin:0;}
+
+.nav a {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 링크의 색상 제거 */
+}
+.nav {
+	text-align:center;
+	position: relative;
+	margin: 50px 0px 0px 100px;
+	background-color: #003E75;
+	width:1200px;height: 100px;
+	z-index:3;
+}
+.navli{
+	font-size:25px;
+	top:30px;
+	display : inline-block;
+	width:350px;
+	height:80px;
+	position: relative;
+	color: white;
+}
+.movingnav{
+	position: fixed;
+	right: 5%;
+	top:200px;
+	color: white;
+	font: 16px NSB;
+	border-radius : 50px;
+	z-index:2;
+}
+.odd {background-color: #b5121b;}
+.even{background-color: #003e7e;}
+#move2top{
+	height:30px;
+	width:60px;
+	padding:10px;
+}	
+.movingli{
+	position: relative;
+	padding: 30px;
+}
+
+/*footer*/
+footer {
+	/*position: relative;*/
+	width: 110%;
+
+	background-color: gray;
+	padding:50px 0px 100px 0px;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+	background-color: #666666;
+	color: #ffffff;
+	text-align: left;
+	position: relative;
+	z-index:1;
+}
+
+.link-footer{	
+	position: relative;
+	padding: 0,0,100px,100px;
+	left:70px;
+}
+.lf-ul{
+	vertical-align: top;
+	display : block;
+	position: relative;
+	margin-left:0;
+	margin-bottom:30px;
+	padding-left:0;
+}
+.lf-title{
+	padding-left:0px;
+	position: relative;
+	bottom: 10px;
+	list-style : none;
+	right:20px;
+}
+.lf-li{
+	
+}
+
+.unlink-footer{
+	display : inline-block;
+	position: relative;
+	top: 10px;
+	margin:0px,0px,0px,100px;
+	left:50px;
+}
+.team{
+width: 200px; height: 20px;
+}
+.name{
+width: 150px; height: 20px;}
+.add{
+width: 600px; height: 20px;}
+
+.copyright{
+	position: relative;
+	top: 30px;
+}

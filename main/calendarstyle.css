@@ -1,5 +1,5 @@
- .main {
-  font-family: sans-serif;
+ .c-main {
+  /*font-family: sans-serif;*/
   box-sizing: border-box;
 }
 /*
@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
 }*/ 	
 .calendar {
-  width: 600px;
+  width: 1200px;
   margin: 50px;
 }	
 

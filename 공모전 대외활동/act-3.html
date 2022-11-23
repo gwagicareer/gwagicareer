@@ -1,96 +1,155 @@
 <!DOCTYPE html>
-<!--act [3]/활동기간-->
+<!--act [1]/활동분야 3페이지-->
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>대학생 대외활동</title>
-	<style>
-		@import url("activities.css");
-	</style>
+  <meta charset="UTF-8">
+  <title>대학생 대외활동</title>
+  <style>
+    @import url("activities.css");/*대외활동과 공모전 기본 페이지 css*/ 
+  </style>
+  <link rel="stylesheet" href="slide.css">
 </head>
 
-<body>
+<body class="main">  
+  <header id="main-header">
+   <h1 class="title"><a href="../main/main.html"><span class="gwagi">Gwagi</span>Career</a></h1>
+   <input class="search" type="search" placeholder="검색어를 입력하세요.">
+   <div class="sns">
+    <a  href="https://job.seoultech.ac.kr/" target="_blank">
+      <img id="seoultechimg" src="../main/media/seoultech.png" alt="seoultech" title="서울과학기술대학교 취업진로본부">
+    </a>
+      <a  href="https://linkareer.com/" target="_blank">
+        <img id="linkareerimg" src="../main/media/linkareer.png" alt="linkareer" title="링커리어">
+      </a>
+    </div> 
+  </header>
 
-	<div class="bar">
-	<h1>대외활동</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Login</a></li>
-      </ul>
-    </div><hr>
-    <div>
-      <button type="button" onclick="location.href='#' " style="background-color: yellow">활동기간</button>
-      <button type="button" onclick="location.href='#' ">활동분야</button>
-      <button type="button" onclick="location.href='#' ">활동지역</button>
-    </div><br><hr>
-    <div>
-      <button type="button" onclick="location.href='#' " style="">3개월</button> <!--활동기간 버튼 눌렀을 때 나타나는 버튼-->
-      <button type="button" onclick="location.href='#' ">3개월~6개월</button><!--버튼 누르면 색이 노랑색으로 변하게-->
-      <button type="button" onclick="location.href='#' ">6개월~1년</button>
-      <button type="button" onclick="location.href='#' ">1년이상</button>
-      <br><hr>
+  <nav>
+    <div class="nav">  
+      <div class="navli"><a href="../community/community.html">커뮤니티</a></div>
+      <div class="navli"><a href="comp.html">공모전</a></div>
+      <div class="navli"><a href="act.html">대외활동</a></div>
     </div>
-    <div style="display: none;"><!--눌림x : 안 보임-->  
-      <button type="button" onclick="location.href='#' " style="display: none;">서포터즈</button> <!--활동기간 버튼 눌렀을 때 등장-->
-      <button type="button" onclick="location.href='#' " style="display: none;">봉사단-국내</button> 
-      <button type="button" onclick="location.href='#' " style="display: none;">봉사단-국외</button>
-      <button type="button" onclick="location.href='#' " style="display: none;">강연</button>
-      <br><hr>
+  </nav>
+
+<aside class="movingnav"> 
+  <div class="movingli odd"><a href="../img/community.html">커뮤니티</a></div>
+  <div class="movingli even"><a href="../공모전 대외활동/comp.html">공모전</a></div>
+  <div class="movingli odd"><a href="../공모전 대외활동/act.html">대외활동</a></div>
+  <div class="movingli even"><a href="#main-header">top</a></div>
+</aside>
+
+<section>
+<!--배너-->
+<div class="slidebox">
+  <input type="radio" name="slide" id="slide01" checked>
+  <input type="radio" name="slide" id="slide02">
+  <input type="radio" name="slide" id="slide03">
+  <input type="radio" name="slide" id="slide04">
+  <ul class="slidelist">
+    <li class="slideitem">
+      <a href="https://nalcee.com/" target="_blank"><img src="../main/media/링크1.png" width=600></a>
+    </li>
+    <li class="slideitem">
+      <a href="http://www.iscfr.or.kr/archive/2010/7" target="_blank"><img src="../main/media/링크2.png" width=600></a>
+    </li>
+    <li class="slideitem">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfe02Ci2a-TcW2VgOLloGrhh0cBOYOTYLBxRrJ-pWLUI-TleA/viewform" target="_blank"><img src="../main/media/링크3.png" width=600></a>
+    </li>
+    <li class="slideitem">
+      <a href="https://www.bokji.net/not/nti/01_01.bokji?BOARDIDX=28373" target="_blank"><img src="../main/media/링크4.png" width=600></a>
+    </li>
+    
+  </ul>
+  <div class="slide-control">
+    <div class="control01">
+      <label for="slide04" class="prev"></label>
+      <label for="slide02" class="next"></label>
     </div>
-    <div style="display: none;">
-      <button type="button" onclick="location.href='#' " style="display: none;v">서울</button> <!--활동기간 버튼 눌렀을 때-->
-      <button type="button" onclick="location.href='#' " style="display: none;">서울 외 수도권</button> 
-      <button type="button" onclick="location.href='#' " style="display: none;">강원</button>
-      <button type="button" onclick="location.href='#' " style="display: none;">충청</button>
-      <button type="button" onclick="location.href='#' " style="display: none;">전라</button>
-      <button type="button" onclick="location.href='#' " style="display: none;">경상</button>
-      <button type="button" onclick="location.href='#' " style="display: none;">해외</button>
-      <br><hr>
+    <div class="control02">
+      <label for="slide01" class="prev"></label>
+      <label for="slide03" class="next"></label>
     </div>
-    <div class="products">
-      <a href="#">
-        <img src="">
-        <p>3</p>
+    <div class="control03">
+      <label for="slide02" class="prev"></label>
+      <label for="slide04" class="next"></label>
+    </div>
+    <div class="control04">
+      <label for="slide03" class="prev"></label>
+      <label for="slide01" class="next"></label>
+    </div>
+  </div>
+</div>
+</section><br><br>
+
+  <div class="for_button">
+    <button type="button" onclick="location.href='act.html' " style="background-color: yellow">활동분야</button>
+    <button type="button" onclick="location.href='act_reg.html' ">활동지역</button>
+  </div><br><br>
+   <div class="for_button">  
+    <button type="button" onclick="location.href='act_sup-1.html' " style="">서포터즈</button> 
+    <button type="button" onclick="location.href='act_vol-1.html' " style="">봉사단</button> 
+    <button type="button" onclick="location.href='act_lec-1.html' " style="">강연</button>
+    <br><br><hr>
+   </div>
+  </div><br>
+    <div class="posters"><!--아래 포스터들-->
+      <a href="act_ex_19.html">
+        <img src="img/act_ex_19.png">
+        <p>19</p>
       </a>
-      <a href="#">
-        <img src="">
-        <p>3</p>
+      <a href="act_ex_20.html">
+        <img src="img/act_ex_20.png">
+        <p>20</p>
       </a>
-      <a href="#">
-        <img src="">
-        <p>3</p>
+      <a href="act_ex_21.html">
+        <img src="img/act_ex_21.png">
+        <p>21</p>
       </a>
-      <a href="#">
-        <img src="">
-        <p>3</p>
+      <a href="act_ex_22.html">
+        <img src="img/act_ex_22.png">
+        <p>22</p>
       </a>
-      <a href="#">
-        <img src="">
-        <p>3</p>
+      <a href="act_ex_23.html">
+        <img src="img/act_ex_23.png">
+        <p>23</p>
       </a>
-      <a href="#">
-        <img src="">
-        <p>3</p>
+      <a href="act_ex_24.html">
+        <img src="img/act_ex_24.png">
+        <p>24</p>
       </a>
-      <a href="#">
-        <img src="">
-        <p>3</p>
+      <a href="act_ex_25.html">
+        <img src="img/act_ex_25.png">
+        <p>25</p>
       </a>
-      <a href="#">
-        <img src="">
-        <p>3</p>
+      <a href="act_ex_26.html">
+        <img src="img/act_ex_26.png">
+        <p>26</p>
       </a>
-      <a href="#">
-        <img src="">
-        <p>3</p>
+      <a href="act_ex_27.html">
+        <img src="img/act_ex_27.png">
+        <p>27</p>
       </a>
       <div class="clearfix"></div>
     </div>
-    
-    <div class="footer">
-      <a href="act.html">[1]</a>
-      <a href="act-2.html">[2]</a>
-      <a href="act-3.html" style="color:red">[3]</a>
-    </div>
+
+    <table class="tables">
+    <tr>
+      <td><a href="act.html"><<첫페이지</a></td>
+      <td><a href="act.html" >1</a></td>
+      <td><a href="act-2.html">2</a></td>
+      <td><a href="act-3.html" style="color:red;">3</a></td>
+      <td><a href="act-3.html">끝 페이지 >></a></td>
+    </tr>
+    <tr></tr></table>
+
+    <footer>
+      <div class="unlink-footer">
+        <table>
+          <tr><td class="team">(조)gwagicareer </td><td class="name">조장 : 장윤호</td><td class="name">조원 : 강주혁</td><td class="name">조원 : 김윤수</td></tr></table>
+        <span class="add">주소 : 서울특별시 노원구 공릉로 232 서울 과학기술대학교 미래관</span>
+        <div class="copyright">Copyright &copy gwagicareer. All Rights Reserved.</div>
+      </div>
+    </footer>
   </body>
 </html>

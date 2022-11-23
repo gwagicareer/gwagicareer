@@ -1,0 +1,31 @@
+a{
+  text-decoration-line: none;
+
+}
+
+
+.post li{
+    
+    padding: 0.5em;
+  }
+.post p{
+    
+    
+  }
+.font_{
+  border-spacing: 10px;
+}
+
+.post{
+ 
+  margin: 100px 0px 0px 100px;
+  width: 80%;
+  text-align:left;
+ border: solid 1px;
+
+}
+.blank_table{
+  padding-left: 530px;
+  padding-right: 530px;
+
+}
